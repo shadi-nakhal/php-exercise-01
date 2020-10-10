@@ -1,0 +1,83 @@
+body {
+    background-color: #304B62;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    text-align: center;
+}
+
+.warn {
+    color:red;
+}
+
+label {
+    margin: 10px;
+}
+
+input{
+    margin: 5px;
+}
+.header-text {
+
+    margin: 15px;
+    
+}
+
+.wrapper {
+    background-color: #c7cad4;
+    margin-left:2%;
+    margin-right:2%;
+    border-radius: 2%;
+    
+
+}
+
+.container{
+
+   
+    margin-left:6%;
+    margin-right:6%;
+    background-color: #E4E4E4;
+    border-radius: 25px;
+    box-shadow: 1px 1px 10px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+
+}
+
+fieldset {
+    width: 40%;
+    margin: 0px;
+
+    
+}
+
+form {
+
+    display: flex;
+    flex-direction: column; 
+}
+
+
+
+.table  {
+    border: 1px solid gray;;
+    width: 250px;
+    text-align: center;
+}
+
+
+.table td {
+    border: 1px solid gray;
+
+}
+
+.text-row {
+    width:65%;
+
+}

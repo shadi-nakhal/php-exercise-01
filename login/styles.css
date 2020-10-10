@@ -1,0 +1,91 @@
+
+.background {
+
+    background-image: url(neww.png);
+    height: 100%;
+    display: flex;
+
+
+}
+
+.over-lay {
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgb(184, 184, 184);
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+.content{
+    display: flex;
+    width: 50%;
+
+    position: absolute;
+    top:21%;
+    right: 25%;
+    z-index: 1;
+    border:0.5px  solid rgb(78, 78, 78);
+
+}
+
+.content-overlay {
+
+    background-color: rgba(94, 93, 93, 0.774);
+
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    position: absolute;
+    top:0;
+    left: 0;
+
+}
+
+.register{
+    height: 100%;
+    width: 50%;
+    z-index: 1;
+
+}
+
+.log-in {
+    height: 50%;
+    width: 50%;
+    z-index: 1;
+
+}
+
+ input {
+    width: 95%;
+    margin: 1%;
+    height: 35px;
+    margin: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+}
+
+legend {
+    color: white;
+}
+
+#btn {
+    background-color: #5e5e5e;
+    border-color: black;
+    color: white;
+}
+
+p {
+    color:red;
+    margin: 0;
+    text-align: center;
+}
+
